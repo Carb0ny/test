@@ -6,7 +6,7 @@ import math
 import matplotlib.pyplot as plt
 
 
-# 1. 定义 Transformer 模型
+# 1. 定义 Transformer 模型a
 class Transformer(nn.Module):
     def __init__(self, input_dim, d_model, nhead, num_layers, output_dim, dropout=0.1):
         super(Transformer, self).__init__()
